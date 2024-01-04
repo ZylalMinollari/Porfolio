@@ -48,7 +48,7 @@ const About = () => {
         frameworks like Laravel.
       </motion.p>
 
-      <div className="mt-20 flex-wrap gap-4">
+      <div className="mt-20 flex flex-wrap gap-4">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -57,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper (About, "about");
