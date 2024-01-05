@@ -1,5 +1,19 @@
 import {
   backend,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git, 
+  figma,
+  docker,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -19,15 +33,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Lorem Ipsum",
-    icon: backend,
+    title: "Web Developer",
+    icon: web,
   },
   {
     title: "Lorem Ipsum",
     icon: backend,
   },
   {
-    title: "Lorem Ipsum",
+    title: "Backend Developer",
     icon: backend,
   },
   {
@@ -38,45 +52,56 @@ const services = [
 
 const technologies = [
   {
-    name: "Lorem Ipsum ",
-    icon: backend,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "CSS 3",
+    icon: css,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
-  },
-
-  {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
-    name: "Lorem Ipsum",
-    icon: backend,
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
 ];
 
